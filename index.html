@@ -9,25 +9,51 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.6.0/moment-timezone-with-data-1970-2030.min.js"></script>
   </head>
   <body>
-    <h1>World Clock</h1>
+    <div class="container">
+      <h1>World Clock</h1>
 
-    <footer>
-      This project was coded by
-      <a href="https://github.com/aliciabuelow" target="_blank"
-        >Alicia Buelow</a
-      >
-      and is
-      <a
-        href="https://github.com/aliciabuelow/world-clock-project"
-        target="_blank"
-        >open-sourced on Github</a
-      >
-      and hosted
-      <a href="https://alicia-world-clock-project.vercel.app/" target="_blank"
-        >by Vercel</a
-      >
-    </footer>
+      <select name="cities" id="cities" class="cities">
+        <option value="">Select city</option>
+        <option value="">Toronto, Canada</option>
+        <option value="">Perth, Australia</option>
+        <option value="">Frankfurt, Germany</option>
+      </select>
 
+      <div class="city">
+        <div class="city-title"><h2>Toronto, Canada</h2></div>
+        <div class="date">January 21 2026</div>
+        <div class="time">3:35:40 PM</div>
+      </div>
+
+      <div class="city">
+        <div class="city-title"><h2>Perth, Australia</h2></div>
+        <div class="date">January 21 2026</div>
+        <div class="time">3:35:40 PM</div>
+      </div>
+
+      <div class="city">
+        <div class="city-title"><h2>Frankfurt, Germany</h2></div>
+        <div class="date">January 21 2026</div>
+        <div class="time">3:35:40 PM</div>
+      </div>
+
+      <footer>
+        This project was coded by
+        <a href="https://github.com/aliciabuelow" target="_blank"
+          >Alicia Buelow</a
+        >
+        and is
+        <a
+          href="https://github.com/aliciabuelow/world-clock-project"
+          target="_blank"
+          >open-sourced on Github</a
+        >
+        and hosted
+        <a href="https://alicia-world-clock-project.vercel.app/" target="_blank"
+          >by Vercel</a
+        >
+      </footer>
+    </div>
     <script src="src/script.js"></script>
   </body>
 </html>
