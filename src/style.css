@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(242, 246, 250);
+  background-color: rgb(235, 243, 250);
   color: #000000;
 }
 
@@ -73,8 +73,16 @@ a:hover {
 }
 
 .time {
+  display: flex;
   font-size: 38px;
   font-weight: 700;
+}
+
+.small {
+  font-size: 15px;
+  position: relative;
+  top: 10px;
+  left: 5px;
 }
 
 footer {
