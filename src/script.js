@@ -2,6 +2,9 @@
 
 function selectCity(event) {
   let cityTimeZone = event.target.value;
+  if (cityTimeZone === "current") {
+    cityTimeZone = moment.tz.guess();
+  }
   let cityName = cityTimeZone.replace("_", " ").split("/")[1];
   let cityDate = moment().tz(cityTimeZone).format("LL");
   let cityTime = moment().tz(cityTimeZone).format("HH:mm:ss");
